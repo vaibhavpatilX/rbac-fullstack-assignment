@@ -426,6 +426,41 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiJ9...
 
 ---
 
+## 📸 Screenshots
+
+### Login Page
+![Login Page](screenshots/login-page.png)
+*Clean, modern login interface with email/password authentication*
+
+---
+
+### Register Page
+![Register Page](screenshots/register-page.png)
+*User registration with role selection (USER/ADMIN) and form validation*
+
+---
+
+### Dashboard - USER Role
+![User Dashboard](screenshots/dashboard-user.png)
+*Standard user view - Access to Public and User content only*
+
+---
+
+### Dashboard - ADMIN Role
+![Admin Dashboard](screenshots/dashboard-admin.png)
+*Admin view - Full system access with all three content sections*
+
+---
+
+**Key UI Features:**
+- 🎨 Modern dark theme with clean typography
+- ✅ Role-based content cards with visual indicators
+- 📊 Access matrix table showing permissions
+- 🔒 Secure logout functionality
+- 📱 Fully responsive design
+
+---
+
 ## ⚠️ Troubleshooting
 
 ### Backend Warnings (Safe to Ignore)
@@ -617,33 +652,6 @@ npm run build
 # Output will be in the 'dist' folder
 # Serve with any static file server (nginx, Apache, etc.)
 ```
-
----
-
-## 📸 Screenshots
-
-### Login Page
-![Login Page](screenshots/login-page.png)
-*Clean, modern login interface with email/password authentication*
-
-### Register Page
-![Register Page](screenshots/register-page.png)
-*User registration with role selection (USER/ADMIN) and form validation*
-
-### Dashboard - USER Role
-![User Dashboard](screenshots/dashboard-user.png)
-*Standard user view - Access to Public and User content only*
-
-### Dashboard - ADMIN Role
-![Admin Dashboard](screenshots/dashboard-admin.png)
-*Admin view - Full system access with all three content sections*
-
-**Key UI Features:**
-- 🎨 Modern dark theme with clean typography
-- ✅ Role-based content cards with visual indicators
-- 📊 Access matrix table showing permissions
-- 🔒 Secure logout functionality
-- 📱 Fully responsive design
 
 ---
 
