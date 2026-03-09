@@ -617,11 +617,32 @@ npm run build
 # Output will be in the 'dist' folder
 # Serve with any static file server (nginx, Apache, etc.)
 ```
+<<<<<<< HEAD
+=======
 
 ---
 
-## 📸 Screenshots
+## 🚧 Future Enhancements
 
+- [ ] Email verification on registration
+- [ ] Password reset functionality
+- [ ] Refresh token implementation
+- [ ] User profile management
+- [ ] Audit logging
+- [ ] PostgreSQL/MySQL integration for production
+- [ ] Docker containerization
+- [ ] CI/CD pipeline with GitHub Actions
+- [ ] Unit & integration tests (JUnit, Jest)
+- [ ] Role hierarchy (e.g., SUPER_ADMIN, MODERATOR)
+- [ ] Multi-factor authentication (MFA)
+- [ ] Activity logs and session management
+>>>>>>> e704b88309ba80f98daf8320093da129f008abab
+
+---
+
+## 📄 License
+
+<<<<<<< HEAD
 ### Login Page
 ![Login Page](screenshots/login-page.png)
 *Clean, modern login interface with email/password authentication*
@@ -672,6 +693,14 @@ This project is licensed under the MIT License — feel free to use it for learn
 
 ## 👤 Author
 
+=======
+This project is licensed under the MIT License — feel free to use it for learning or commercial purposes.
+
+---
+
+## 👤 Author
+
+>>>>>>> e704b88309ba80f98daf8320093da129f008abab
 **Vaibhav Patil**
 
 - GitHub: [@vaibhavpatilX](https://github.com/vaibhavpatilX)
@@ -699,4 +728,8 @@ Built as part of a full-stack development assignment for **BotMakers Pvt Ltd** t
 
 *Submission for Full Stack Developer Intern Position at BotMakers Pvt Ltd*
 
+<<<<<<< HEAD
 </div>
+=======
+</div>
+>>>>>>> e704b88309ba80f98daf8320093da129f008abab
