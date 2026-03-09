@@ -137,6 +137,8 @@ node -version   # Should show v18+
 npm -version    # Should show v9+
 ```
 
+> **⚠️ IMPORTANT:** This is a **multi-module project**. The backend and frontend are **separate applications** in their own directories. There is NO `package.json` in the root directory. Always run commands from the respective `backend/` or `frontend/` directories.
+
 ---
 
 ### 🔧 Backend Setup
@@ -477,6 +479,19 @@ npm audit fix --force  # Use with caution
 ---
 
 ### Common Issues
+
+#### Running npm install in Root Directory
+
+**Error:** `npm install` in project root does nothing or creates unwanted files
+
+**Cause:** There is NO `package.json` in the root directory - this is intentional!  
+**Solution:** Always navigate to the **frontend** directory first:
+```bash
+cd rbac-project/frontend  # Navigate to frontend FIRST
+npm install               # Then install dependencies
+```
+
+---
 
 #### Port Already in Use
 
