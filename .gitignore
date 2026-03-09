@@ -1,0 +1,27 @@
+# In project root
+cat > .gitignore << 'EOF'
+# Root level - no package files
+package-lock.json
+package.json
+node_modules/
+
+# Backend
+backend/target/
+backend/.mvn/
+backend/mvnw
+backend/mvnw.cmd
+
+# Frontend build
+frontend/dist/
+frontend/node_modules/
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+EOF
